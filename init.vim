@@ -19,3 +19,4 @@ colorscheme onedark
 " Some settings from previous windows
 set hlsearch
 set number relativenumber          " for relative numering except current number
+set tabstop=4 softtabstop=4
