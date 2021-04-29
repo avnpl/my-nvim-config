@@ -5,8 +5,9 @@ set nocompatible                   " be iMproved, required
 filetype off                       " required
 
 call plug#begin('~/AppData/Local/nvim/plugged')
+
 " below are some vim plugins for demonstration purpose.
-" " add the plugin you want to use here.
+" add the plugin you want to use here.
 " Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes'
 
@@ -14,9 +15,13 @@ Plug 'joshdick/onedark.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
-colorscheme onedark
+colorscheme onedark                " for setting the installed onedark theme
 
-" Some settings from previous windows
-set hlsearch
+" Some settings from previous video
+
+set hlsearch                       " for highlighting the search results
 set number relativenumber          " for relative numering except current number
-set tabstop=4 softtabstop=4
+set tabstop=4 softtabstop=4        " for setting tab spaces to 4 columns and on backspace it will go back 4 spaces
+set nowrap                         " words won't wrap now
+set expandtab                      " will insert spaces instead of tab like in VSCode (useful for python)
+set smartindent                    " used to select and indent textblocks to the same indentation level
