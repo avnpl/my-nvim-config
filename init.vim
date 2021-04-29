@@ -15,3 +15,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 colorscheme onedark
+
+" Some settings from previous windows
+set hlsearch
+set number relativenumber          " for relative numering except current number
