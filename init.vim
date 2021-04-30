@@ -24,3 +24,9 @@ set tabstop=4 softtabstop=4        " for setting tab spaces to 4 columns and on 
 set nowrap                         " words won't wrap now
 set expandtab                      " will insert spaces instead of tab like in VSCode (useful for python)
 set smartindent                    " used to select and indent textblocks to the same indentation level
+set cursorline                     " used to quickly find the cursor line
+
+" Remaps
+
+" to disable search results highlighting by pressing enter
+nnoremap <CR> :noh<CR><CR>         
