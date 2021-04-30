@@ -19,7 +19,6 @@ colorscheme onedark                " for setting the installed onedark theme
 
 " Some settings from previous video
 
-set hlsearch                       " for highlighting the search results
 set number relativenumber          " for relative numering except current number
 set tabstop=4 softtabstop=4        " for setting tab spaces to 4 columns and on backspace it will go back 4 spaces
 set nowrap                         " words won't wrap now
