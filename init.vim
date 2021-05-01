@@ -8,14 +8,20 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 
 " below are some vim plugins for demonstration purpose.
 " add the plugin you want to use here.
-" Plug 'vim-airline/vim-airline'
-" Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 Plug 'joshdick/onedark.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" From Ben Awad's neovim configuration video
+
+" Plug 'Shougo/deoplete.nvim', { 'do' : ':UpdateRemotePlugins' }
+
 call plug#end()
 
 colorscheme onedark                " for setting the installed onedark theme
+" let g:deoplete#enable_at_startup = 1
 
 " Some settings from previous video
 
