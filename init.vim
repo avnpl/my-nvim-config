@@ -32,7 +32,3 @@ set expandtab                      " will insert spaces instead of tab like in V
 set smartindent                    " used to select and indent textblocks to the same indentation level
 set cursorline                     " used to quickly find the cursor line
 syntax enable                      " to turn on color syntax highlighting
-" Remaps
-
-" to disable search results highlighting by pressing enter
-nnoremap <CR> :noh<CR><CR>         
