@@ -12,9 +12,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 Plug 'joshdick/onedark.vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-" From Ben Awad's neovim configuration video
 
 " Plug 'Shougo/deoplete.nvim', { 'do' : ':UpdateRemotePlugins' }
 
